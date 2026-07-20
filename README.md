@@ -29,6 +29,8 @@ Some prompts to answer:
 
 You can include a simple diagram or bullet list if helpful.
 
+Real-life recommendations work by combining collabroative filtering and content based filtering. This way, users are able to get reccomendations through both what they specifically like and also what similar users have also liked. In my simulation, year 'Song' will have features such as genre, moood, tempo, and danceability. 'UserProfile' will store information such as most played genres and moods of the user, as well as what songs are most repeated the played so the reccomendations of the simulation can give similar songs that the user might like. My recommender will compute a score by 
+
 ---
 
 ## Getting Started
