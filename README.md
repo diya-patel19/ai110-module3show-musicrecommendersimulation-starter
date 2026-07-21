@@ -29,7 +29,9 @@ Some prompts to answer:
 
 You can include a simple diagram or bullet list if helpful.
 
-Real-life recommendations work by combining collabroative filtering and content based filtering. This way, users are able to get reccomendations through both what they specifically like and also what similar users have also liked. In my simulation, year 'Song' will have features such as genre, moood, tempo, and danceability. 'UserProfile' will store information such as most played genres and moods of the user, as well as what songs are most repeated the played so the reccomendations of the simulation can give similar songs that the user might like. My recommender will compute a score by 
+Real-life recommendations work by combining collabroative filtering and content based filtering. This way, users are able to get reccomendations through both what they specifically like and also what similar users have also liked. In my simulation, year 'Song' will have features such as genre, moood, tempo, and danceability. 'UserProfile' will store information such as most played genres and moods of the user, as well as what songs are most repeated the played so the reccomendations of the simulation can give similar songs that the user might like. 
+
+My recommender will compute a score by first splitting the score into 3 categories, each with different weights. The first category, which has a maximum of 3 points, will determine if the genre (2 points) and the mood (1 point) will match the user's preferences. The second category, which has a maximum of 3 points, will determine if the songs energy and danceability (each 1.5 points) match the users preferences. And the last category, which has a maximum of 1 point, will determine if the tempo and acousticness match as well. A bias that may occur is a lack of genre diversity, only giving the user songs from the few genres that they like. Anothe bais that may occur is that the scoring is very binary, either it matches or it does'nt, so song in the in-between may not be recommended at all.  
 
 ---
 
