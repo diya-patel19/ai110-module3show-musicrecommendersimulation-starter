@@ -83,6 +83,40 @@ Paste a sample of your recommender's output here as a text block so a reader can
 #   3. ...
 ```
 
+Loading songs from data/songs.csv...
+
+================================================================================
+🎵 MUSIC RECOMMENDATIONS FOR YOU
+================================================================================
+Profile: Pop • Happy • Energy: 0.75
+================================================================================
+
+1. SUNRISE CITY
+   Artist: Neon Echo • Genre: Pop
+   Score: 6.76/7.0
+   Why: genre match (+2.0), mood match (+1.0), energy similarity (+1.40), danceability similarity (+1.48), tempo similarity (+0.47), acousticness match (+0.41)
+
+2. GYM HERO
+   Artist: Max Pulse • Genre: Pop
+   Score: 5.43/7.0
+   Why: genre match (+2.0), energy similarity (+1.23), danceability similarity (+1.38), tempo similarity (+0.35), acousticness match (+0.47)
+
+3. ROOFTOP LIGHTS
+   Artist: Indigo Parade • Genre: Indie Pop
+   Score: 4.73/7.0
+   Why: mood match (+1.0), energy similarity (+1.48), danceability similarity (+1.47), tempo similarity (+0.45), acousticness match (+0.33)
+
+4. NIGHT DRIVE LOOP
+   Artist: Neon Echo • Genre: Synthwave
+   Score: 3.66/7.0
+   Why: energy similarity (+1.50), danceability similarity (+1.40), tempo similarity (+0.38), acousticness match (+0.39)
+
+5. HIP HOP FLOW
+   Artist: Urban Beats • Genre: Hip Hop
+   Score: 3.46/7.0
+   Why: energy similarity (+1.46), danceability similarity (+1.48), tempo similarity (+0.15), acousticness match (+0.38)
+
+
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
 
 ---
