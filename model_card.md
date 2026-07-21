@@ -70,6 +70,8 @@ Prompts:
 - Cases where the system overfits to one preference  
 - Ways the scoring might unintentionally favor some users  
 
+One bias and limitation the recommender shows is inability to recommend songs accross multiple genres. Because genre matching is very highly weighted, 2 points, users interested in rock music will rarely see other genres of music, such as pop or electronic, even if other factors of the song match their preferences. The system also ignores other features, such as artist poularity, lyrics, cultural context, and listening history. All this combined means that the users are trapped in their preferred genre, missing discoveries in other genres that real platforms actively try to encourage. 
+
 ---
 
 ## 7. Evaluation  
@@ -84,6 +86,8 @@ Prompts:
 - Any simple tests or comparisons you ran  
 
 No need for numeric metrics unless you created some.
+
+I tested the 3 main user profiels, High Energy Pop, Chill Lof, and Deep Intesne Rock. For each prifle, I looked for whether the top recommendations matched the genre and mood. I also looked for cross genre reccomendations, and discovered that high energy lovers tend to see more genre variety compared to low energy lovers. This means that the reccomender favors users with extreme preferences, either very high or very low energy, while middle ground listeners miss discoveries. I ran the disabling mood matching tests, and found that cross genre recommendatiosn dropped to almost nothing. 
 
 ---
 

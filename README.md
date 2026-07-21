@@ -83,6 +83,7 @@ Paste a sample of your recommender's output here as a text block so a reader can
 #   3. ...
 ```
 
+```
 Loading songs from data/songs.csv...
 
 ================================================================================
@@ -115,7 +116,112 @@ Profile: Pop • Happy • Energy: 0.75
    Artist: Urban Beats • Genre: Hip Hop
    Score: 3.46/7.0
    Why: energy similarity (+1.46), danceability similarity (+1.48), tempo similarity (+0.15), acousticness match (+0.38)
+```
 
+```
+# USER 1: High-Energy Pop
+
+================================================================================
+🎵 MUSIC RECOMMENDATIONS FOR YOU
+================================================================================
+Profile: Pop • Happy • Energy: 0.85
+================================================================================
+
+1. SUNRISE CITY
+   Artist: Neon Echo • Genre: Pop
+   Score: 6.62/7.0
+   Why: genre match (+2.0), mood match (+1.0), energy similarity (+1.46), danceability similarity (+1.41), tempo similarity (+0.35), acousticness match (+0.41)
+
+2. GYM HERO
+   Artist: Max Pulse • Genre: Pop
+   Score: 5.78/7.0
+   Why: genre match (+2.0), energy similarity (+1.38), danceability similarity (+1.46), tempo similarity (+0.47), acousticness match (+0.47)
+
+3. ROOFTOP LIGHTS
+   Artist: Indigo Parade • Genre: Indie Pop
+   Score: 4.57/7.0
+   Why: mood match (+1.0), energy similarity (+1.36), danceability similarity (+1.46), tempo similarity (+0.42), acousticness match (+0.33)
+
+4. ELECTRIC DREAMS
+   Artist: Synthwave Collective • Genre: Electronic
+   Score: 3.77/7.0
+   Why: energy similarity (+1.46), danceability similarity (+1.50), tempo similarity (+0.38), acousticness match (+0.44)
+
+5. BASS DROP ANTHEM
+   Artist: DJ Sonic • Genre: Dance
+   Score: 3.71/7.0
+   Why: energy similarity (+1.35), danceability similarity (+1.40), tempo similarity (+0.47), acousticness match (+0.49)
+```
+
+```
+# USER 2: Chill Lofi
+
+================================================================================
+🎵 MUSIC RECOMMENDATIONS FOR YOU
+================================================================================
+Profile: Lofi • Chill • Energy: 0.35
+================================================================================
+
+1. LIBRARY RAIN
+   Artist: Paper Lanterns • Genre: Lofi
+   Score: 6.42/7.0
+   Why: genre match (+2.0), mood match (+1.0), energy similarity (+1.50), danceability similarity (+1.46), tempo similarity (+0.46), acousticness match (+0.00)
+
+2. MIDNIGHT CODING
+   Artist: LoRoom • Genre: Lofi
+   Score: 6.25/7.0
+   Why: genre match (+2.0), mood match (+1.0), energy similarity (+1.40), danceability similarity (+1.40), tempo similarity (+0.46), acousticness match (+0.00)
+
+3. FOCUS FLOW
+   Artist: LoRoom • Genre: Lofi
+   Score: 5.29/7.0
+   Why: genre match (+2.0), energy similarity (+1.42), danceability similarity (+1.43), tempo similarity (+0.44), acousticness match (+0.00)
+
+4. SPACEWALK THOUGHTS
+   Artist: Orbit Bloom • Genre: Ambient
+   Score: 4.00/7.0
+   Why: mood match (+1.0), energy similarity (+1.40), danceability similarity (+1.29), tempo similarity (+0.31), acousticness match (+0.00)
+
+5. COFFEE SHOP STORIES
+   Artist: Slow Stereo • Genre: Jazz
+   Score: 3.27/7.0
+   Why: energy similarity (+1.47), danceability similarity (+1.48), tempo similarity (+0.31), acousticness match (+0.00)
+```
+
+```
+# USER 3: Deep Intense Rock
+
+================================================================================
+🎵 MUSIC RECOMMENDATIONS FOR YOU
+================================================================================
+Profile: Rock • Intense • Energy: 0.9
+================================================================================
+
+1. STORM RUNNER
+   Artist: Voltline • Genre: Rock
+   Score: 6.89/7.0
+   Why: genre match (+2.0), mood match (+1.0), energy similarity (+1.48), danceability similarity (+1.48), tempo similarity (+0.47), acousticness match (+0.45)
+
+2. GYM HERO
+   Artist: Max Pulse • Genre: Pop
+   Score: 4.36/7.0
+   Why: mood match (+1.0), energy similarity (+1.46), danceability similarity (+1.16), tempo similarity (+0.28), acousticness match (+0.47)
+
+3. HEAVY METAL THUNDER
+   Artist: Iron Fists • Genre: Metal
+   Score: 3.58/7.0
+   Why: energy similarity (+1.41), danceability similarity (+1.46), tempo similarity (+0.25), acousticness match (+0.46)
+
+4. ELECTRIC DREAMS
+   Artist: Synthwave Collective • Genre: Electronic
+   Score: 3.48/7.0
+   Why: energy similarity (+1.47), danceability similarity (+1.20), tempo similarity (+0.38), acousticness match (+0.44)
+
+5. BASS DROP ANTHEM
+   Artist: DJ Sonic • Genre: Dance
+   Score: 3.24/7.0
+   Why: energy similarity (+1.43), danceability similarity (+1.09), tempo similarity (+0.22), acousticness match (+0.49)
+```
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
 

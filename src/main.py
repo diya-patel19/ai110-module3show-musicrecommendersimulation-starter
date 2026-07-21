@@ -15,8 +15,33 @@ from recommender import load_songs, recommend_songs
 def main() -> None:
     songs = load_songs("data/songs.csv")
 
-    # Starter example profile
-    user_prefs = {"genre": "pop", "mood": "happy", "target_energy": 0.75, "target_danceability": 0.80, "target_tempo_bpm": 120}
+    # Define multiple user profiles - uncomment the one you want to test
+    profiles = {
+        "High-Energy Pop": {
+            "genre": "pop",
+            "mood": "happy",
+            "target_energy": 0.85,
+            "target_danceability": 0.85,
+            "target_tempo_bpm": 130,
+        },
+        "Chill Lofi": {
+            "genre": "lofi",
+            "mood": "chill",
+            "target_energy": 0.35,
+            "target_danceability": 0.55,
+            "target_tempo_bpm": 75,
+        },
+        "Deep Intense Rock": {
+            "genre": "rock",
+            "mood": "intense",
+            "target_energy": 0.90,
+            "target_danceability": 0.65,
+            "target_tempo_bpm": 150,
+        },
+    }
+
+    # Select profile to test (change this to test different profiles)
+    user_prefs = profiles["Deep Intense Rock"]
 
     recommendations = recommend_songs(user_prefs, songs, k=5)
 
